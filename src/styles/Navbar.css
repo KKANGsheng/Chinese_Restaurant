@@ -1,0 +1,41 @@
+.navbar{
+    max-height:130px;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    background: black;
+}
+
+.navbar .logo{
+    display:flex;
+    align-items: center;
+}
+
+.navbar .logo img{
+    height: 90px;
+    margin:20px;
+    margin-left: 120px;
+}
+
+.rightside{
+    display: flex;
+    gap:1rem;
+    font-size: 20px;
+    align-items: center;
+    margin:20px;
+    margin-right:200px;
+}
+
+li{
+    list-style: none;
+    color:white;
+}
+
+
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+
